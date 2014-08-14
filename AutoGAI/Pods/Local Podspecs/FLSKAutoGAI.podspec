@@ -2,12 +2,10 @@ Pod::Spec.new do |s|
   s.name             = "FLSKAutoGAI"
   s.version          = "0.1.0"
   s.summary          = "Automatic tracking with GAI of all UIViewController."
-  s.description      = <<-DESC
-                       An optional longer description of FLSKAutoGAI
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  s.description      = "Automatic UIViewController tracking in GAI without subclassing. 
+  Using Google Analytics for iOS requires subclassing of all UIViewControllers in order to automatically track them. This is annoying in general and makes UITableViewController/UICollectionViewController unusable. This pod makes all UIViewControllers automatically tracked in GAI with their class name as the default value. 
+  Setup GAI as normally and: #import <UIViewController+FLSKAutoGAI.h> in the view controllers that should be tracked. 
+  " 
   s.homepage         = "https://github.com/floskel/FLSKAutoGAI"
   s.license          = 'MIT'
   s.author           = { "floskel" => "karlo@floskel.com" }
