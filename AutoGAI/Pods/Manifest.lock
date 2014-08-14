@@ -1,0 +1,17 @@
+PODS:
+  - FLSKAutoGAI (0.1.0):
+    - GoogleAnalytics-iOS-SDK (~> 3.0)
+  - GoogleAnalytics-iOS-SDK (3.0.9)
+
+DEPENDENCIES:
+  - FLSKAutoGAI (from `../FLSKAutoGAI.podspec`)
+
+EXTERNAL SOURCES:
+  FLSKAutoGAI:
+    :path: ../FLSKAutoGAI.podspec
+
+SPEC CHECKSUMS:
+  FLSKAutoGAI: 732ceafcc3d74fb9f9efedac07d3e3da5c1bc894
+  GoogleAnalytics-iOS-SDK: d9e198b1f955259a72886769be7377cdfcdb2250
+
+COCOAPODS: 0.33.1

@@ -21,6 +21,7 @@
 		2B3579DD199CE853007D597D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3579BF199CE852007D597D /* UIKit.framework */; };
 		2B3579E5199CE853007D597D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B3579E3199CE853007D597D /* InfoPlist.strings */; };
 		2B3579E7199CE853007D597D /* AutoGAITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3579E6199CE853007D597D /* AutoGAITests.m */; };
+		84BBA9263F52468D9130113D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DD9828C1B34B74B36C897B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2B3579E2199CE853007D597D /* AutoGAITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoGAITests-Info.plist"; sourceTree = "<group>"; };
 		2B3579E4199CE853007D597D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B3579E6199CE853007D597D /* AutoGAITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoGAITests.m; sourceTree = "<group>"; };
+		793B7EAF71E142D8B005D0F7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D8DD9828C1B34B74B36C897B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 				2B3579BE199CE852007D597D /* CoreGraphics.framework in Frameworks */,
 				2B3579C0199CE852007D597D /* UIKit.framework in Frameworks */,
 				2B3579BC199CE852007D597D /* Foundation.framework in Frameworks */,
+				84BBA9263F52468D9130113D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +90,7 @@
 				2B3579E0199CE853007D597D /* AutoGAITests */,
 				2B3579BA199CE852007D597D /* Frameworks */,
 				2B3579B9199CE852007D597D /* Products */,
+				793B7EAF71E142D8B005D0F7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +110,7 @@
 				2B3579BD199CE852007D597D /* CoreGraphics.framework */,
 				2B3579BF199CE852007D597D /* UIKit.framework */,
 				2B3579DA199CE853007D597D /* XCTest.framework */,
+				D8DD9828C1B34B74B36C897B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B3579EA199CE853007D597D /* Build configuration list for PBXNativeTarget "AutoGAI" */;
 			buildPhases = (
+				DED5D48E92E94B2DBED40EB5 /* Check Pods Manifest.lock */,
 				2B3579B4199CE852007D597D /* Sources */,
 				2B3579B5199CE852007D597D /* Frameworks */,
 				2B3579B6199CE852007D597D /* Resources */,
+				9F1AA17B90AE49E48AF946D0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +252,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F1AA17B90AE49E48AF946D0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DED5D48E92E94B2DBED40EB5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B3579B4199CE852007D597D /* Sources */ = {
@@ -374,6 +415,7 @@
 		};
 		2B3579EB199CE853007D597D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793B7EAF71E142D8B005D0F7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +429,7 @@
 		};
 		2B3579EC199CE853007D597D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793B7EAF71E142D8B005D0F7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +500,7 @@
 				2B3579EC199CE853007D597D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3579ED199CE853007D597D /* Build configuration list for PBXNativeTarget "AutoGAITests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +509,7 @@
 				2B3579EF199CE853007D597D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
