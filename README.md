@@ -7,9 +7,16 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+UIViewControllers that adopt the 
 
-## Requirements
+    FLSKAutoGAI
+protocol will automatically be tracked in GoogleAnalytics. The ViewController's class name will be used as tracked screen name per default. Implement the method
+
+    -(NSString*)screenName { 
+        return @"Alternative Tracked Screen Name";
+    }
+    
+to provide another tracked screen name.
 
 ## Installation
 
@@ -18,9 +25,7 @@ it, simply add the following line to your Podfile:
 
     pod "FLSKAutoGAI"
 
-## Author
-
-floskel, karlofk@gmail.com
+This pod will also install 'GoogleAnalytics-iOS-SDK 3.0'
 
 ## License
 
