@@ -7,9 +7,9 @@
 //
 
 #import "FLSKViewController.h"
-#import <UIViewController+FLSKAutoGAI.h>
+#import <FLSKAutoGAI.h>
 
-@interface FLSKViewController ()
+@interface FLSKViewController () <FLSKAutoGAI>
 
 @end
 
@@ -18,6 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+}
+
+
+- (NSString *)screenName {
+    return @"Example View Controller";
 }
 
 @end

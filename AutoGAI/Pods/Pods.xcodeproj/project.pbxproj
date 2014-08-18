@@ -7,320 +7,338 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02156D01FF5241CCBDBACE3C /* Pods-GoogleAnalytics-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57415C5BA02A433994F2D2EB /* Pods-GoogleAnalytics-iOS-SDK-dummy.m */; };
-		0DFA8032BF0A46768FAC1BAA /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 48505329315149C1A7CEEF17 /* GAITracker.h */; };
-		1A6BDD444503474BB9F07EF8 /* TAGContainerOpener.h in Headers */ = {isa = PBXBuildFile; fileRef = 9147208FC3224E8FBC82A951 /* TAGContainerOpener.h */; };
-		223FCF8F438C4172B65B292D /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 35EA2DA58E924DF2BC83C63B /* GAIEcommercePromotion.h */; };
-		25289FA55CDE4BCAA3A690DC /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DAED7A122946E4B5F0F146 /* GAIEcommerceProduct.h */; };
-		2F82C4F33442480CAC83363F /* TAGManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0B2A12A7BA4E5484A2E09D /* TAGManager.h */; };
-		47A47020CD6C4EF5B9120A35 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A887BFF3B94910BE5FC1C4 /* GAI.h */; };
-		4835D5762749495693304BF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2157A3069084423902700A0 /* SystemConfiguration.framework */; };
-		6899D348782A485CAFAEFBCE /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E091BE76A1847F89817E205 /* GAILogger.h */; };
-		6F05F1EF65104D7E84C0C0A2 /* UIViewController+FLSKAutoGAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D691ED870AD4DDD94749D63 /* UIViewController+FLSKAutoGAI.h */; };
-		82496EDBD41447CB8721F5C9 /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7707BE1849D4E9EBFB76698 /* GAITrackedViewController.h */; };
-		92D48192DDC84465825F7870 /* libPods-GoogleAnalytics-iOS-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3483293B23334F58BB92FCAF /* libPods-GoogleAnalytics-iOS-SDK.a */; };
-		950FE3F401004285A5D88BE1 /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3D6031FF1B4B32B94DEC9D /* GAIDictionaryBuilder.h */; };
-		95CD15C6AA2046F49EE1BC25 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C272876E807489F8D7D1998 /* Pods-dummy.m */; };
-		9F14DC9A0152492FB001F401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9999CBA2B6FE445580C8FE1F /* Foundation.framework */; };
-		A52D936DC5154C83B22C175F /* FLSKScreenNameProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0284C7E01147558CAD0967 /* FLSKScreenNameProtocol.h */; };
-		A97E6ECD906B4554BE226A85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614F18E7911541F6B5EFD449 /* UIKit.framework */; };
-		B201977AF12D4EC2B2F201B3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C1B88714244C5AB07C169C /* CoreData.framework */; };
-		B4740E10FC304BA29173DCA6 /* Pods-FLSKAutoGAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD77C95D8454ACF981B8DEF /* Pods-FLSKAutoGAI-dummy.m */; };
-		B76D1C72DFD44B189455F9B5 /* TAGContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5016E7F677046CD928FD21A /* TAGContainer.h */; };
-		BFDECF22A2B7485291605ABE /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D1B56D1F7848AE92467A4B /* GAIEcommerceProductAction.h */; };
-		C1CE466FED0F4EB5A14CC371 /* TAGDataLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8649F66FFB4B00864475D1 /* TAGDataLayer.h */; };
-		CAE32B24832347D9BF10CA75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9999CBA2B6FE445580C8FE1F /* Foundation.framework */; };
-		CD581AE7FF9842E68C701C69 /* libPods-FLSKAutoGAI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B399B0CA6E524331A5F26DCE /* libPods-FLSKAutoGAI.a */; };
-		D3ED819F9FE441E4815A9277 /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = EF20B36FBAAB4B8AAFEF7AF5 /* GAIFields.h */; };
-		D5EA2863EA4A4D5E9472CC69 /* TAGLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D084A707A15F4D98A96507B2 /* TAGLogger.h */; };
-		DDE5CF3F200B47E0BC4E0E9A /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B28F6ACBFE64254A7E0D1ED /* GAIEcommerceFields.h */; };
-		F8CBD8F46DE64D769988CCAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9999CBA2B6FE445580C8FE1F /* Foundation.framework */; };
-		FCE3ECA88DC04A72A64C0932 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D910D6734234AEB828BFCB6 /* CFNetwork.framework */; };
-		FF2A065758C1457B9848AF74 /* UIViewController+FLSKAutoGAI.m in Sources */ = {isa = PBXBuildFile; fileRef = 22278C8E948D47C59E476C7A /* UIViewController+FLSKAutoGAI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		0BD4CC9BDD3C4C8AA5DED540 /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC4A630645D4949882C8AFE /* GAILogger.h */; };
+		0CB9F30C12C5409C96D27976 /* Pods-GoogleAnalytics-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA70F00E575C47898662E541 /* Pods-GoogleAnalytics-iOS-SDK-dummy.m */; };
+		0E2C75553CFD42D89C2CFCF6 /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBE990D72D84098B653798C /* GAIEcommerceFields.h */; };
+		12825D33F0854727A5927F0A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0CE78D78FF4BD68AEFEDC1 /* CFNetwork.framework */; };
+		1626D1A2A1574699BCDCDB45 /* libPods-GoogleAnalytics-iOS-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5244E549C6405EACABA7B6 /* libPods-GoogleAnalytics-iOS-SDK.a */; };
+		16436A0DF70F451A8A186694 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2F00DDA8A041A1AFFB7BCC /* Foundation.framework */; };
+		1C601E45E55B4AC9B8C8AED0 /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 615BE031FA344467B71AC400 /* GAITrackedViewController.h */; };
+		1D51C2C772EC4B8CA24660C9 /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C6DD27B1334129A32C10E2 /* GAITracker.h */; };
+		1F19274770A24E58A9477784 /* TAGContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FFC602FA4F4577BF66A45D /* TAGContainer.h */; };
+		24027B9F65524802BF5243FD /* Pods-FLSKAutoGAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C96C28AB9E0E477497C2DBCC /* Pods-FLSKAutoGAI-dummy.m */; };
+		2536A4823112406E9B9016BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2F00DDA8A041A1AFFB7BCC /* Foundation.framework */; };
+		4B2D7878A89B4AC996699022 /* TAGContainerOpener.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1BAFF32BEB47D08C43E880 /* TAGContainerOpener.h */; };
+		51EFEA0A02044130BE1FFE34 /* FLSKAutoGAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 753B29371E684D4F9138D437 /* FLSKAutoGAI.h */; };
+		537BCB76681246D6A82F8ABE /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5CB348A33F49488E6875B4 /* GAIDictionaryBuilder.h */; };
+		5702BFF8D3D047C7822F79DA /* UIViewController+FLSKAutoGAI.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3419794E894352AF431C01 /* UIViewController+FLSKAutoGAI.h */; };
+		574AD55486A24FFC8D9FE9B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F46591305A49289D638DE0 /* UIKit.framework */; };
+		5DC7AC4A33C9427187BEDF5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2F00DDA8A041A1AFFB7BCC /* Foundation.framework */; };
+		6E17EF5D91BD44249F02456B /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1A5501865C4675BC7040F4 /* GAIEcommerceProduct.h */; };
+		9192C3AF0BFE45C297314872 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFE7D8E8D6741949292BA46 /* GAI.h */; };
+		988A402A7D994D79A503516A /* libPods-FLSKAutoGAI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9C662EDAA46DA81A403FC /* libPods-FLSKAutoGAI.a */; };
+		B64EE544E933421A8F010AE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC3E6EC890C46CFBB1B2496 /* SystemConfiguration.framework */; };
+		B8E4EB8B0730410EAF463C19 /* TAGLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A33DE0D036F49A6B1D9E1F7 /* TAGLogger.h */; };
+		B9360FFFDC8449D483D3AF41 /* TAGManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A483946C2484C6C86676130 /* TAGManager.h */; };
+		BAF898DC470E4309B01794DB /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = ED69B2AC7FF042A5996E320E /* GAIEcommercePromotion.h */; };
+		C27E5BCF30D543DD818B358D /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F93C969DDAF45ACA34CEA82 /* GAIFields.h */; };
+		D4FBBF780DDF4034A93B3105 /* UIViewController+FLSKAutoGAI.m in Sources */ = {isa = PBXBuildFile; fileRef = FD388EF36215418F91D012F3 /* UIViewController+FLSKAutoGAI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		E007BEA849C14C9A97E72FD2 /* TAGDataLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C6E1E66DD34DD2B55E4E12 /* TAGDataLayer.h */; };
+		E202F7EB57374CE4956CDC65 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43886E7DA6A41EB832937E9 /* CoreData.framework */; };
+		E6814A7A41E6451FB9EFDC06 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F08E277FA4A3C9555E8F5 /* Pods-dummy.m */; };
+		FA49FB7EC0F74F84B3A347C4 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 16AC0D374EFF43BF98767D05 /* GAIEcommerceProductAction.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3DF68A27636F4049B3ECF9A9 /* PBXContainerItemProxy */ = {
+		06149119DA324EE3A8033135 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7F74B9E4EF514A52BDDB275D /* Project object */;
+			containerPortal = C4784213717C44D39F439132 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8ACA9559A1044ED0808A957B;
+			remoteGlobalIDString = 249DD831460E42D79EDFE9E8;
 			remoteInfo = "Pods-GoogleAnalytics-iOS-SDK";
 		};
-		4A4A6E48C827408E9FE9E138 /* PBXContainerItemProxy */ = {
+		52457C01CCCF4C929AE27239 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7F74B9E4EF514A52BDDB275D /* Project object */;
+			containerPortal = C4784213717C44D39F439132 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8ACA9559A1044ED0808A957B;
+			remoteGlobalIDString = 249DD831460E42D79EDFE9E8;
 			remoteInfo = "Pods-GoogleAnalytics-iOS-SDK";
 		};
-		C9096DA60EE8452588580A26 /* PBXContainerItemProxy */ = {
+		609858EB3F8545C0BC158259 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7F74B9E4EF514A52BDDB275D /* Project object */;
+			containerPortal = C4784213717C44D39F439132 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EEA055EEA2794CF0A563A419;
+			remoteGlobalIDString = 0C45A78DEEEB4D84AAFE8E9D;
 			remoteInfo = "Pods-FLSKAutoGAI";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09C1B88714244C5AB07C169C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		0E3D6031FF1B4B32B94DEC9D /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = GoogleAnalytics/Library/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		1E091BE76A1847F89817E205 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = GoogleAnalytics/Library/GAILogger.h; sourceTree = "<group>"; };
-		21A887BFF3B94910BE5FC1C4 /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = GoogleAnalytics/Library/GAI.h; sourceTree = "<group>"; };
-		22278C8E948D47C59E476C7A /* UIViewController+FLSKAutoGAI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FLSKAutoGAI.m"; path = "Pod/Classes/UIViewController+FLSKAutoGAI.m"; sourceTree = "<group>"; };
-		2ACFC3A2136D4590925D45C0 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2D910D6734234AEB828BFCB6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		3483293B23334F58BB92FCAF /* libPods-GoogleAnalytics-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleAnalytics-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35EA2DA58E924DF2BC83C63B /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = GoogleAnalytics/Library/GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		3F8649F66FFB4B00864475D1 /* TAGDataLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGDataLayer.h; path = GoogleTagManager/Library/TAGDataLayer.h; sourceTree = "<group>"; };
-		46DF7DB2476C4E90A4C2506A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		48505329315149C1A7CEEF17 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = GoogleAnalytics/Library/GAITracker.h; sourceTree = "<group>"; };
-		57415C5BA02A433994F2D2EB /* Pods-GoogleAnalytics-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleAnalytics-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
-		5BE3669354DD411DAF04AF0A /* Pods-FLSKAutoGAI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLSKAutoGAI-prefix.pch"; sourceTree = "<group>"; };
-		5C272876E807489F8D7D1998 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		5D1BBFD53CE848DFBBDB4840 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		5D691ED870AD4DDD94749D63 /* UIViewController+FLSKAutoGAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FLSKAutoGAI.h"; path = "Pod/Classes/UIViewController+FLSKAutoGAI.h"; sourceTree = "<group>"; };
-		614F18E7911541F6B5EFD449 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		65620284538C491BB40001D2 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		7B0D1009373344C68F91C03A /* Pods-GoogleAnalytics-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleAnalytics-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
-		888ADC216A234E1E8C2A0CB2 /* Pods-FLSKAutoGAI-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLSKAutoGAI-Private.xcconfig"; sourceTree = "<group>"; };
-		8B28F6ACBFE64254A7E0D1ED /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = GoogleAnalytics/Library/GAIEcommerceFields.h; sourceTree = "<group>"; };
-		8C0284C7E01147558CAD0967 /* FLSKScreenNameProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLSKScreenNameProtocol.h; path = Pod/Classes/FLSKScreenNameProtocol.h; sourceTree = "<group>"; };
-		9147208FC3224E8FBC82A951 /* TAGContainerOpener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainerOpener.h; path = GoogleTagManager/Library/TAGContainerOpener.h; sourceTree = "<group>"; };
-		942ED3E19F9B4D75A777A625 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
-		9999CBA2B6FE445580C8FE1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A5016E7F677046CD928FD21A /* TAGContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainer.h; path = GoogleTagManager/Library/TAGContainer.h; sourceTree = "<group>"; };
-		A662CF808ED142C1BD7148A8 /* Pods-FLSKAutoGAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLSKAutoGAI.xcconfig"; sourceTree = "<group>"; };
-		A6C7D680FB0F4D07937CD409 /* Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig"; sourceTree = "<group>"; };
-		A8D1B56D1F7848AE92467A4B /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = GoogleAnalytics/Library/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		B399B0CA6E524331A5F26DCE /* libPods-FLSKAutoGAI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLSKAutoGAI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B406B7B0179F4FE5AB5F4BE2 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		D084A707A15F4D98A96507B2 /* TAGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGLogger.h; path = GoogleTagManager/Library/TAGLogger.h; sourceTree = "<group>"; };
-		D7777F7A429D4F4EB33F91F6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4DAED7A122946E4B5F0F146 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = GoogleAnalytics/Library/GAIEcommerceProduct.h; sourceTree = "<group>"; };
-		E7707BE1849D4E9EBFB76698 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = GoogleAnalytics/Library/GAITrackedViewController.h; sourceTree = "<group>"; };
-		E8933AC5C84042F2BA9D36EB /* Pods-GoogleAnalytics-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleAnalytics-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
-		EF20B36FBAAB4B8AAFEF7AF5 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = GoogleAnalytics/Library/GAIFields.h; sourceTree = "<group>"; };
-		F2157A3069084423902700A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		FD0B2A12A7BA4E5484A2E09D /* TAGManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGManager.h; path = GoogleTagManager/Library/TAGManager.h; sourceTree = "<group>"; };
-		FDD77C95D8454ACF981B8DEF /* Pods-FLSKAutoGAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLSKAutoGAI-dummy.m"; sourceTree = "<group>"; };
+		099BABDA9FA04FD0A02043F9 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		0DB037C61ED2497CA6555564 /* Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig"; sourceTree = "<group>"; };
+		0DBE990D72D84098B653798C /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = GoogleAnalytics/Library/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		12FFC602FA4F4577BF66A45D /* TAGContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainer.h; path = GoogleTagManager/Library/TAGContainer.h; sourceTree = "<group>"; };
+		16AC0D374EFF43BF98767D05 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = GoogleAnalytics/Library/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		1CF8984AA5354DE194480376 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		2A33DE0D036F49A6B1D9E1F7 /* TAGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGLogger.h; path = GoogleTagManager/Library/TAGLogger.h; sourceTree = "<group>"; };
+		2CC3E6EC890C46CFBB1B2496 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		2F5244E549C6405EACABA7B6 /* libPods-GoogleAnalytics-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleAnalytics-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D83BA582AB4CDBB4BC1939 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		512F5728100B4C859032F699 /* Pods-GoogleAnalytics-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleAnalytics-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		568CB21B109E4817A9F95520 /* Pods-FLSKAutoGAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLSKAutoGAI.xcconfig"; sourceTree = "<group>"; };
+		5DE9C662EDAA46DA81A403FC /* libPods-FLSKAutoGAI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLSKAutoGAI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		615BE031FA344467B71AC400 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = GoogleAnalytics/Library/GAITrackedViewController.h; sourceTree = "<group>"; };
+		6F1A5501865C4675BC7040F4 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = GoogleAnalytics/Library/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		753B29371E684D4F9138D437 /* FLSKAutoGAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLSKAutoGAI.h; path = Pod/Classes/FLSKAutoGAI.h; sourceTree = "<group>"; };
+		7A0CE78D78FF4BD68AEFEDC1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		7CC4A630645D4949882C8AFE /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = GoogleAnalytics/Library/GAILogger.h; sourceTree = "<group>"; };
+		82508495148B4CA79844FB9C /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		86C6DD27B1334129A32C10E2 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = GoogleAnalytics/Library/GAITracker.h; sourceTree = "<group>"; };
+		8B3F08E277FA4A3C9555E8F5 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		9A483946C2484C6C86676130 /* TAGManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGManager.h; path = GoogleTagManager/Library/TAGManager.h; sourceTree = "<group>"; };
+		9DCB8A89CB274DAC90734886 /* Pods-GoogleAnalytics-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleAnalytics-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		9E5CB348A33F49488E6875B4 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = GoogleAnalytics/Library/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		9F93C969DDAF45ACA34CEA82 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = GoogleAnalytics/Library/GAIFields.h; sourceTree = "<group>"; };
+		A43886E7DA6A41EB832937E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		A4F46591305A49289D638DE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A6C6E1E66DD34DD2B55E4E12 /* TAGDataLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGDataLayer.h; path = GoogleTagManager/Library/TAGDataLayer.h; sourceTree = "<group>"; };
+		AAB6E481B281467B96623C2A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B77058BE892F443397C275F9 /* Pods-FLSKAutoGAI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLSKAutoGAI-prefix.pch"; sourceTree = "<group>"; };
+		C0B8A46C55F147518F411A15 /* Pods-FLSKAutoGAI-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLSKAutoGAI-Private.xcconfig"; sourceTree = "<group>"; };
+		C6D3E4820B8B4F518FAE2CB6 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		C96C28AB9E0E477497C2DBCC /* Pods-FLSKAutoGAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLSKAutoGAI-dummy.m"; sourceTree = "<group>"; };
+		CF3419794E894352AF431C01 /* UIViewController+FLSKAutoGAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FLSKAutoGAI.h"; path = "Pod/Classes/UIViewController+FLSKAutoGAI.h"; sourceTree = "<group>"; };
+		DA1BAFF32BEB47D08C43E880 /* TAGContainerOpener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainerOpener.h; path = GoogleTagManager/Library/TAGContainerOpener.h; sourceTree = "<group>"; };
+		DA70F00E575C47898662E541 /* Pods-GoogleAnalytics-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleAnalytics-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		EA2F00DDA8A041A1AFFB7BCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED69B2AC7FF042A5996E320E /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = GoogleAnalytics/Library/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		F95B5886434C453B8194BEB3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFE7D8E8D6741949292BA46 /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = GoogleAnalytics/Library/GAI.h; sourceTree = "<group>"; };
+		FD388EF36215418F91D012F3 /* UIViewController+FLSKAutoGAI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FLSKAutoGAI.m"; path = "Pod/Classes/UIViewController+FLSKAutoGAI.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5DD61B2BAB7B4C4E97587945 /* Frameworks */ = {
+		29BF4ED7785345019B4D61AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8CBD8F46DE64D769988CCAE /* Foundation.framework in Frameworks */,
+				16436A0DF70F451A8A186694 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9429ABF3FB8B41778AC8B7DB /* Frameworks */ = {
+		7742C28042554AAA92127031 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F14DC9A0152492FB001F401 /* Foundation.framework in Frameworks */,
-				CD581AE7FF9842E68C701C69 /* libPods-FLSKAutoGAI.a in Frameworks */,
-				92D48192DDC84465825F7870 /* libPods-GoogleAnalytics-iOS-SDK.a in Frameworks */,
+				2536A4823112406E9B9016BB /* Foundation.framework in Frameworks */,
+				988A402A7D994D79A503516A /* libPods-FLSKAutoGAI.a in Frameworks */,
+				1626D1A2A1574699BCDCDB45 /* libPods-GoogleAnalytics-iOS-SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB5DFD64E5DB4EB4B893300D /* Frameworks */ = {
+		9E1D306CC5324954BD5FFF94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE3ECA88DC04A72A64C0932 /* CFNetwork.framework in Frameworks */,
-				B201977AF12D4EC2B2F201B3 /* CoreData.framework in Frameworks */,
-				CAE32B24832347D9BF10CA75 /* Foundation.framework in Frameworks */,
-				4835D5762749495693304BF5 /* SystemConfiguration.framework in Frameworks */,
-				A97E6ECD906B4554BE226A85 /* UIKit.framework in Frameworks */,
+				12825D33F0854727A5927F0A /* CFNetwork.framework in Frameworks */,
+				E202F7EB57374CE4956CDC65 /* CoreData.framework in Frameworks */,
+				5DC7AC4A33C9427187BEDF5D /* Foundation.framework in Frameworks */,
+				B64EE544E933421A8F010AE7 /* SystemConfiguration.framework in Frameworks */,
+				574AD55486A24FFC8D9FE9B0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1126095BD6044B038B3DE944 = {
+		08618FA721A14227B2DC876B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46DF7DB2476C4E90A4C2506A /* Podfile */,
-				6A84E560BB4E45EB821FF80B /* Development Pods */,
-				14628C415DA1444BB8CB75A8 /* Frameworks */,
-				EAB09AF89AFE410A82D631DF /* Pods */,
-				CE63BFC739334CF29BA5A3D6 /* Products */,
-				914D16098A0F4A46A8DF4FA2 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		14628C415DA1444BB8CB75A8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				71E1D9C08641436F927965AF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2AA00890BA79423FAE13B5C8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B0D1009373344C68F91C03A /* Pods-GoogleAnalytics-iOS-SDK.xcconfig */,
-				A6C7D680FB0F4D07937CD409 /* Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig */,
-				57415C5BA02A433994F2D2EB /* Pods-GoogleAnalytics-iOS-SDK-dummy.m */,
-				E8933AC5C84042F2BA9D36EB /* Pods-GoogleAnalytics-iOS-SDK-prefix.pch */,
-			);
-			name = "Support Files";
-			sourceTree = SOURCE_ROOT;
-		};
-		36DBE66604524C22A6C2BC97 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				942ED3E19F9B4D75A777A625 /* Pods.xcconfig */,
-				2ACFC3A2136D4590925D45C0 /* Pods-acknowledgements.markdown */,
-				B406B7B0179F4FE5AB5F4BE2 /* Pods-acknowledgements.plist */,
-				5C272876E807489F8D7D1998 /* Pods-dummy.m */,
-				65620284538C491BB40001D2 /* Pods-environment.h */,
-				5D1BBFD53CE848DFBBDB4840 /* Pods-resources.sh */,
+				F07D5542EFAE4D04AFE149D2 /* GoogleAnalytics-iOS-SDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4CB031070E6043119D0BD38A /* GoogleAnalytics-iOS-SDK */ = {
+		3829D30A23F648C28CF98495 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21A887BFF3B94910BE5FC1C4 /* GAI.h */,
-				0E3D6031FF1B4B32B94DEC9D /* GAIDictionaryBuilder.h */,
-				8B28F6ACBFE64254A7E0D1ED /* GAIEcommerceFields.h */,
-				E4DAED7A122946E4B5F0F146 /* GAIEcommerceProduct.h */,
-				A8D1B56D1F7848AE92467A4B /* GAIEcommerceProductAction.h */,
-				35EA2DA58E924DF2BC83C63B /* GAIEcommercePromotion.h */,
-				EF20B36FBAAB4B8AAFEF7AF5 /* GAIFields.h */,
-				1E091BE76A1847F89817E205 /* GAILogger.h */,
-				E7707BE1849D4E9EBFB76698 /* GAITrackedViewController.h */,
-				48505329315149C1A7CEEF17 /* GAITracker.h */,
-				A5016E7F677046CD928FD21A /* TAGContainer.h */,
-				9147208FC3224E8FBC82A951 /* TAGContainerOpener.h */,
-				3F8649F66FFB4B00864475D1 /* TAGDataLayer.h */,
-				D084A707A15F4D98A96507B2 /* TAGLogger.h */,
-				FD0B2A12A7BA4E5484A2E09D /* TAGManager.h */,
-				2AA00890BA79423FAE13B5C8 /* Support Files */,
-			);
-			path = "GoogleAnalytics-iOS-SDK";
-			sourceTree = "<group>";
-		};
-		6A84E560BB4E45EB821FF80B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B6FCD6F25B4D4CCF945E2E04 /* FLSKAutoGAI */,
+				5B2FBA017E8641868520D3C9 /* FLSKAutoGAI */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		71E1D9C08641436F927965AF /* iOS */ = {
+		5B2FBA017E8641868520D3C9 /* FLSKAutoGAI */ = {
 			isa = PBXGroup;
 			children = (
-				2D910D6734234AEB828BFCB6 /* CFNetwork.framework */,
-				09C1B88714244C5AB07C169C /* CoreData.framework */,
-				9999CBA2B6FE445580C8FE1F /* Foundation.framework */,
-				F2157A3069084423902700A0 /* SystemConfiguration.framework */,
-				614F18E7911541F6B5EFD449 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		914D16098A0F4A46A8DF4FA2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				36DBE66604524C22A6C2BC97 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9497D24D9FE6421798D3F423 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A662CF808ED142C1BD7148A8 /* Pods-FLSKAutoGAI.xcconfig */,
-				888ADC216A234E1E8C2A0CB2 /* Pods-FLSKAutoGAI-Private.xcconfig */,
-				FDD77C95D8454ACF981B8DEF /* Pods-FLSKAutoGAI-dummy.m */,
-				5BE3669354DD411DAF04AF0A /* Pods-FLSKAutoGAI-prefix.pch */,
-			);
-			name = "Support Files";
-			sourceTree = SOURCE_ROOT;
-		};
-		B6FCD6F25B4D4CCF945E2E04 /* FLSKAutoGAI */ = {
-			isa = PBXGroup;
-			children = (
-				8C0284C7E01147558CAD0967 /* FLSKScreenNameProtocol.h */,
-				5D691ED870AD4DDD94749D63 /* UIViewController+FLSKAutoGAI.h */,
-				22278C8E948D47C59E476C7A /* UIViewController+FLSKAutoGAI.m */,
-				9497D24D9FE6421798D3F423 /* Support Files */,
+				753B29371E684D4F9138D437 /* FLSKAutoGAI.h */,
+				CF3419794E894352AF431C01 /* UIViewController+FLSKAutoGAI.h */,
+				FD388EF36215418F91D012F3 /* UIViewController+FLSKAutoGAI.m */,
+				E9BEC35D5AAF42459C26545F /* Support Files */,
 			);
 			name = FLSKAutoGAI;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CE63BFC739334CF29BA5A3D6 /* Products */ = {
+		6B0C5BEC25194CD2B2396910 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D7777F7A429D4F4EB33F91F6 /* libPods.a */,
-				B399B0CA6E524331A5F26DCE /* libPods-FLSKAutoGAI.a */,
-				3483293B23334F58BB92FCAF /* libPods-GoogleAnalytics-iOS-SDK.a */,
+				1CF8984AA5354DE194480376 /* Pods.xcconfig */,
+				47D83BA582AB4CDBB4BC1939 /* Pods-acknowledgements.markdown */,
+				82508495148B4CA79844FB9C /* Pods-acknowledgements.plist */,
+				8B3F08E277FA4A3C9555E8F5 /* Pods-dummy.m */,
+				099BABDA9FA04FD0A02043F9 /* Pods-environment.h */,
+				C6D3E4820B8B4F518FAE2CB6 /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70895D14A66942FEA186F2F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				512F5728100B4C859032F699 /* Pods-GoogleAnalytics-iOS-SDK.xcconfig */,
+				0DB037C61ED2497CA6555564 /* Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig */,
+				DA70F00E575C47898662E541 /* Pods-GoogleAnalytics-iOS-SDK-dummy.m */,
+				9DCB8A89CB274DAC90734886 /* Pods-GoogleAnalytics-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		8BFF723D7D2E4F669032151A = {
+			isa = PBXGroup;
+			children = (
+				AAB6E481B281467B96623C2A /* Podfile */,
+				3829D30A23F648C28CF98495 /* Development Pods */,
+				AB82E673D33B48B2AFC7F3E0 /* Frameworks */,
+				08618FA721A14227B2DC876B /* Pods */,
+				D37F38B7B9CB4084A36C505E /* Products */,
+				EBB7C8E3C1A84F2CBAD7CA06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AB82E673D33B48B2AFC7F3E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0C56C3F8EE4302B9046991 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37F38B7B9CB4084A36C505E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F95B5886434C453B8194BEB3 /* libPods.a */,
+				5DE9C662EDAA46DA81A403FC /* libPods-FLSKAutoGAI.a */,
+				2F5244E549C6405EACABA7B6 /* libPods-GoogleAnalytics-iOS-SDK.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAB09AF89AFE410A82D631DF /* Pods */ = {
+		E9BEC35D5AAF42459C26545F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CB031070E6043119D0BD38A /* GoogleAnalytics-iOS-SDK */,
+				568CB21B109E4817A9F95520 /* Pods-FLSKAutoGAI.xcconfig */,
+				C0B8A46C55F147518F411A15 /* Pods-FLSKAutoGAI-Private.xcconfig */,
+				C96C28AB9E0E477497C2DBCC /* Pods-FLSKAutoGAI-dummy.m */,
+				B77058BE892F443397C275F9 /* Pods-FLSKAutoGAI-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		EA0C56C3F8EE4302B9046991 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CE78D78FF4BD68AEFEDC1 /* CFNetwork.framework */,
+				A43886E7DA6A41EB832937E9 /* CoreData.framework */,
+				EA2F00DDA8A041A1AFFB7BCC /* Foundation.framework */,
+				2CC3E6EC890C46CFBB1B2496 /* SystemConfiguration.framework */,
+				A4F46591305A49289D638DE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBB7C8E3C1A84F2CBAD7CA06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B0C5BEC25194CD2B2396910 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F07D5542EFAE4D04AFE149D2 /* GoogleAnalytics-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE7D8E8D6741949292BA46 /* GAI.h */,
+				9E5CB348A33F49488E6875B4 /* GAIDictionaryBuilder.h */,
+				0DBE990D72D84098B653798C /* GAIEcommerceFields.h */,
+				6F1A5501865C4675BC7040F4 /* GAIEcommerceProduct.h */,
+				16AC0D374EFF43BF98767D05 /* GAIEcommerceProductAction.h */,
+				ED69B2AC7FF042A5996E320E /* GAIEcommercePromotion.h */,
+				9F93C969DDAF45ACA34CEA82 /* GAIFields.h */,
+				7CC4A630645D4949882C8AFE /* GAILogger.h */,
+				615BE031FA344467B71AC400 /* GAITrackedViewController.h */,
+				86C6DD27B1334129A32C10E2 /* GAITracker.h */,
+				12FFC602FA4F4577BF66A45D /* TAGContainer.h */,
+				DA1BAFF32BEB47D08C43E880 /* TAGContainerOpener.h */,
+				A6C6E1E66DD34DD2B55E4E12 /* TAGDataLayer.h */,
+				2A33DE0D036F49A6B1D9E1F7 /* TAGLogger.h */,
+				9A483946C2484C6C86676130 /* TAGManager.h */,
+				70895D14A66942FEA186F2F6 /* Support Files */,
+			);
+			path = "GoogleAnalytics-iOS-SDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		139F9861A9D34DF184C189FA /* Headers */ = {
+		2194A82293B1423987EBFDA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52D936DC5154C83B22C175F /* FLSKScreenNameProtocol.h in Headers */,
-				6F05F1EF65104D7E84C0C0A2 /* UIViewController+FLSKAutoGAI.h in Headers */,
+				9192C3AF0BFE45C297314872 /* GAI.h in Headers */,
+				537BCB76681246D6A82F8ABE /* GAIDictionaryBuilder.h in Headers */,
+				0E2C75553CFD42D89C2CFCF6 /* GAIEcommerceFields.h in Headers */,
+				6E17EF5D91BD44249F02456B /* GAIEcommerceProduct.h in Headers */,
+				FA49FB7EC0F74F84B3A347C4 /* GAIEcommerceProductAction.h in Headers */,
+				BAF898DC470E4309B01794DB /* GAIEcommercePromotion.h in Headers */,
+				C27E5BCF30D543DD818B358D /* GAIFields.h in Headers */,
+				0BD4CC9BDD3C4C8AA5DED540 /* GAILogger.h in Headers */,
+				1C601E45E55B4AC9B8C8AED0 /* GAITrackedViewController.h in Headers */,
+				1D51C2C772EC4B8CA24660C9 /* GAITracker.h in Headers */,
+				1F19274770A24E58A9477784 /* TAGContainer.h in Headers */,
+				4B2D7878A89B4AC996699022 /* TAGContainerOpener.h in Headers */,
+				E007BEA849C14C9A97E72FD2 /* TAGDataLayer.h in Headers */,
+				B8E4EB8B0730410EAF463C19 /* TAGLogger.h in Headers */,
+				B9360FFFDC8449D483D3AF41 /* TAGManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0C7996560074992B3DD521C /* Headers */ = {
+		F8830F971B834A3FA66CF670 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47A47020CD6C4EF5B9120A35 /* GAI.h in Headers */,
-				950FE3F401004285A5D88BE1 /* GAIDictionaryBuilder.h in Headers */,
-				DDE5CF3F200B47E0BC4E0E9A /* GAIEcommerceFields.h in Headers */,
-				25289FA55CDE4BCAA3A690DC /* GAIEcommerceProduct.h in Headers */,
-				BFDECF22A2B7485291605ABE /* GAIEcommerceProductAction.h in Headers */,
-				223FCF8F438C4172B65B292D /* GAIEcommercePromotion.h in Headers */,
-				D3ED819F9FE441E4815A9277 /* GAIFields.h in Headers */,
-				6899D348782A485CAFAEFBCE /* GAILogger.h in Headers */,
-				82496EDBD41447CB8721F5C9 /* GAITrackedViewController.h in Headers */,
-				0DFA8032BF0A46768FAC1BAA /* GAITracker.h in Headers */,
-				B76D1C72DFD44B189455F9B5 /* TAGContainer.h in Headers */,
-				1A6BDD444503474BB9F07EF8 /* TAGContainerOpener.h in Headers */,
-				C1CE466FED0F4EB5A14CC371 /* TAGDataLayer.h in Headers */,
-				D5EA2863EA4A4D5E9472CC69 /* TAGLogger.h in Headers */,
-				2F82C4F33442480CAC83363F /* TAGManager.h in Headers */,
+				51EFEA0A02044130BE1FFE34 /* FLSKAutoGAI.h in Headers */,
+				5702BFF8D3D047C7822F79DA /* UIViewController+FLSKAutoGAI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8ACA9559A1044ED0808A957B /* Pods-GoogleAnalytics-iOS-SDK */ = {
+		0C45A78DEEEB4D84AAFE8E9D /* Pods-FLSKAutoGAI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9B2798298C14A8AAB8E23EA /* Build configuration list for PBXNativeTarget "Pods-GoogleAnalytics-iOS-SDK" */;
+			buildConfigurationList = D9CDA7E94F254786A2F62EE3 /* Build configuration list for PBXNativeTarget "Pods-FLSKAutoGAI" */;
 			buildPhases = (
-				4AC7CD6948194E5EB1ADA1E2 /* Sources */,
-				FB5DFD64E5DB4EB4B893300D /* Frameworks */,
-				A0C7996560074992B3DD521C /* Headers */,
+				323A98D57B074E9284B0BCF9 /* Sources */,
+				29BF4ED7785345019B4D61AA /* Frameworks */,
+				F8830F971B834A3FA66CF670 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599C7D56E6214937873B3810 /* PBXTargetDependency */,
+			);
+			name = "Pods-FLSKAutoGAI";
+			productName = "Pods-FLSKAutoGAI";
+			productReference = 5DE9C662EDAA46DA81A403FC /* libPods-FLSKAutoGAI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		249DD831460E42D79EDFE9E8 /* Pods-GoogleAnalytics-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C341DF63CA4B20BADD1BA4 /* Build configuration list for PBXNativeTarget "Pods-GoogleAnalytics-iOS-SDK" */;
+			buildPhases = (
+				79385DF205A54DF3BF912DD9 /* Sources */,
+				9E1D306CC5324954BD5FFF94 /* Frameworks */,
+				2194A82293B1423987EBFDA5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -328,120 +346,304 @@
 			);
 			name = "Pods-GoogleAnalytics-iOS-SDK";
 			productName = "Pods-GoogleAnalytics-iOS-SDK";
-			productReference = 3483293B23334F58BB92FCAF /* libPods-GoogleAnalytics-iOS-SDK.a */;
+			productReference = 2F5244E549C6405EACABA7B6 /* libPods-GoogleAnalytics-iOS-SDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B7C44EDBCFE943F89EA97D24 /* Pods */ = {
+		B6AB716127164820BBC8EBEC /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4982B56DC59544D7B8641BFE /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = DBE74B6D03584FA08F08A878 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				167FDF1872304F59A38462D4 /* Sources */,
-				9429ABF3FB8B41778AC8B7DB /* Frameworks */,
+				31098C3236EC45E883272CB7 /* Sources */,
+				7742C28042554AAA92127031 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7E2E90A3225D4E74911A5664 /* PBXTargetDependency */,
-				9E24D60973104260B48F30F0 /* PBXTargetDependency */,
+				A7FE6A7F8EC347AA9084873A /* PBXTargetDependency */,
+				5D422515653F43DEAB346DB6 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = D7777F7A429D4F4EB33F91F6 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		EEA055EEA2794CF0A563A419 /* Pods-FLSKAutoGAI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74743A831D134ED6A84652DF /* Build configuration list for PBXNativeTarget "Pods-FLSKAutoGAI" */;
-			buildPhases = (
-				12D386134A064826BF5D1D84 /* Sources */,
-				5DD61B2BAB7B4C4E97587945 /* Frameworks */,
-				139F9861A9D34DF184C189FA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9C60A72C1E244C58A618F649 /* PBXTargetDependency */,
-			);
-			name = "Pods-FLSKAutoGAI";
-			productName = "Pods-FLSKAutoGAI";
-			productReference = B399B0CA6E524331A5F26DCE /* libPods-FLSKAutoGAI.a */;
+			productReference = F95B5886434C453B8194BEB3 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7F74B9E4EF514A52BDDB275D /* Project object */ = {
+		C4784213717C44D39F439132 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 7B0FB19938994A4F9259AFE0 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = C789DF5C9C594673A686BBA7 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1126095BD6044B038B3DE944;
-			productRefGroup = CE63BFC739334CF29BA5A3D6 /* Products */;
+			mainGroup = 8BFF723D7D2E4F669032151A;
+			productRefGroup = D37F38B7B9CB4084A36C505E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7C44EDBCFE943F89EA97D24 /* Pods */,
-				EEA055EEA2794CF0A563A419 /* Pods-FLSKAutoGAI */,
-				8ACA9559A1044ED0808A957B /* Pods-GoogleAnalytics-iOS-SDK */,
+				B6AB716127164820BBC8EBEC /* Pods */,
+				0C45A78DEEEB4D84AAFE8E9D /* Pods-FLSKAutoGAI */,
+				249DD831460E42D79EDFE9E8 /* Pods-GoogleAnalytics-iOS-SDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12D386134A064826BF5D1D84 /* Sources */ = {
+		31098C3236EC45E883272CB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4740E10FC304BA29173DCA6 /* Pods-FLSKAutoGAI-dummy.m in Sources */,
-				FF2A065758C1457B9848AF74 /* UIViewController+FLSKAutoGAI.m in Sources */,
+				E6814A7A41E6451FB9EFDC06 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		167FDF1872304F59A38462D4 /* Sources */ = {
+		323A98D57B074E9284B0BCF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95CD15C6AA2046F49EE1BC25 /* Pods-dummy.m in Sources */,
+				24027B9F65524802BF5243FD /* Pods-FLSKAutoGAI-dummy.m in Sources */,
+				D4FBBF780DDF4034A93B3105 /* UIViewController+FLSKAutoGAI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AC7CD6948194E5EB1ADA1E2 /* Sources */ = {
+		79385DF205A54DF3BF912DD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02156D01FF5241CCBDBACE3C /* Pods-GoogleAnalytics-iOS-SDK-dummy.m in Sources */,
+				0CB9F30C12C5409C96D27976 /* Pods-GoogleAnalytics-iOS-SDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7E2E90A3225D4E74911A5664 /* PBXTargetDependency */ = {
+		599C7D56E6214937873B3810 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EEA055EEA2794CF0A563A419 /* Pods-FLSKAutoGAI */;
-			targetProxy = C9096DA60EE8452588580A26 /* PBXContainerItemProxy */;
+			target = 249DD831460E42D79EDFE9E8 /* Pods-GoogleAnalytics-iOS-SDK */;
+			targetProxy = 06149119DA324EE3A8033135 /* PBXContainerItemProxy */;
 		};
-		9C60A72C1E244C58A618F649 /* PBXTargetDependency */ = {
+		5D422515653F43DEAB346DB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8ACA9559A1044ED0808A957B /* Pods-GoogleAnalytics-iOS-SDK */;
-			targetProxy = 3DF68A27636F4049B3ECF9A9 /* PBXContainerItemProxy */;
+			target = 249DD831460E42D79EDFE9E8 /* Pods-GoogleAnalytics-iOS-SDK */;
+			targetProxy = 52457C01CCCF4C929AE27239 /* PBXContainerItemProxy */;
 		};
-		9E24D60973104260B48F30F0 /* PBXTargetDependency */ = {
+		A7FE6A7F8EC347AA9084873A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8ACA9559A1044ED0808A957B /* Pods-GoogleAnalytics-iOS-SDK */;
-			targetProxy = 4A4A6E48C827408E9FE9E138 /* PBXContainerItemProxy */;
+			target = 0C45A78DEEEB4D84AAFE8E9D /* Pods-FLSKAutoGAI */;
+			targetProxy = 609858EB3F8545C0BC158259 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12C6FC6C0FAC48A6B514FCA6 /* Debug */ = {
+		0A9F2981602946489F5E443F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB037C61ED2497CA6555564 /* Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-GoogleAnalytics-iOS-SDK-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		399971E94BA34E2FA746EC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B8A46C55F147518F411A15 /* Pods-FLSKAutoGAI-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-FLSKAutoGAI-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		728B653344DE41B39436F0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB037C61ED2497CA6555564 /* Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-GoogleAnalytics-iOS-SDK-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		830C95C26F2B4A68A06ACD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD409B01391C4C0CB62F6149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF8984AA5354DE194480376 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44E46C8E8ED40F68850DCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF8984AA5354DE194480376 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C9AB5DDBDB604B26876729DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B8A46C55F147518F411A15 /* Pods-FLSKAutoGAI-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-FLSKAutoGAI-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EB5A9620F5234B2695687A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -477,248 +679,46 @@
 			};
 			name = Debug;
 		};
-		3C7A1974F6E04B2686496288 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6C7D680FB0F4D07937CD409 /* Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-GoogleAnalytics-iOS-SDK-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		561188B3364849D59E71EAA8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 942ED3E19F9B4D75A777A625 /* Pods.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		64BA841EED614A0284E7EE27 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 942ED3E19F9B4D75A777A625 /* Pods.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6F2D9D37C28240FEB2282F31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		719279EEB1C64086872979BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 888ADC216A234E1E8C2A0CB2 /* Pods-FLSKAutoGAI-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-FLSKAutoGAI-prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D22A8A6D705C4D6A82DA24D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 888ADC216A234E1E8C2A0CB2 /* Pods-FLSKAutoGAI-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-FLSKAutoGAI-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		EA498449DB5046DCB4884655 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6C7D680FB0F4D07937CD409 /* Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-GoogleAnalytics-iOS-SDK-prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4982B56DC59544D7B8641BFE /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		C789DF5C9C594673A686BBA7 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				561188B3364849D59E71EAA8 /* Debug */,
-				64BA841EED614A0284E7EE27 /* Release */,
+				EB5A9620F5234B2695687A50 /* Debug */,
+				830C95C26F2B4A68A06ACD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74743A831D134ED6A84652DF /* Build configuration list for PBXNativeTarget "Pods-FLSKAutoGAI" */ = {
+		C7C341DF63CA4B20BADD1BA4 /* Build configuration list for PBXNativeTarget "Pods-GoogleAnalytics-iOS-SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D22A8A6D705C4D6A82DA24D7 /* Debug */,
-				719279EEB1C64086872979BD /* Release */,
+				728B653344DE41B39436F0CD /* Debug */,
+				0A9F2981602946489F5E443F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B0FB19938994A4F9259AFE0 /* Build configuration list for PBXProject "Pods" */ = {
+		D9CDA7E94F254786A2F62EE3 /* Build configuration list for PBXNativeTarget "Pods-FLSKAutoGAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12C6FC6C0FAC48A6B514FCA6 /* Debug */,
-				6F2D9D37C28240FEB2282F31 /* Release */,
+				C9AB5DDBDB604B26876729DD /* Debug */,
+				399971E94BA34E2FA746EC0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9B2798298C14A8AAB8E23EA /* Build configuration list for PBXNativeTarget "Pods-GoogleAnalytics-iOS-SDK" */ = {
+		DBE74B6D03584FA08F08A878 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C7A1974F6E04B2686496288 /* Debug */,
-				EA498449DB5046DCB4884655 /* Release */,
+				C44E46C8E8ED40F68850DCE8 /* Debug */,
+				AD409B01391C4C0CB62F6149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7F74B9E4EF514A52BDDB275D /* Project object */;
+	rootObject = C4784213717C44D39F439132 /* Project object */;
 }
