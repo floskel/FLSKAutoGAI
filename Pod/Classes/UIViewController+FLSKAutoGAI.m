@@ -16,51 +16,49 @@
 @implementation UIViewController (FLSKAutoGAI)
 
 + (void)load {
-	if ([self conformsToProtocol:@protocol(FLSKAutoGAI)]) {
-		static dispatch_once_t onceToken;
-		dispatch_once(&onceToken, ^{
-		    Class class = [self class];
-
-		    SEL originalSelector = @selector(viewDidAppear:);
-		    SEL swizzledSelector = @selector(autoGAI_viewDidAppear:);
-
-		    Method originalMethod = class_getInstanceMethod(class, originalSelector);
-		    Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
-
-		    BOOL didAddMethod =
-		        class_addMethod(class,
-		                        originalSelector,
-		                        method_getImplementation(swizzledMethod),
-		                        method_getTypeEncoding(swizzledMethod));
-
-		    if (didAddMethod) {
-		        class_replaceMethod(class,
-		                            swizzledSelector,
-		                            method_getImplementation(originalMethod),
-		                            method_getTypeEncoding(originalMethod));
-			}
-		    else {
-		        method_exchangeImplementations(originalMethod, swizzledMethod);
-			}
-		});
-	}
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        Class class = [self class];
+        
+        SEL originalSelector = @selector(viewDidAppear:);
+        SEL swizzledSelector = @selector(autoGAI_viewDidAppear:);
+        
+        Method originalMethod = class_getInstanceMethod(class, originalSelector);
+        Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+        
+        BOOL didAddMethod =
+        class_addMethod(class,
+                        originalSelector,
+                        method_getImplementation(swizzledMethod),
+                        method_getTypeEncoding(swizzledMethod));
+        
+        if (didAddMethod) {
+            class_replaceMethod(class,
+                                swizzledSelector,
+                                method_getImplementation(originalMethod),
+                                method_getTypeEncoding(originalMethod));
+        }
+        else {
+            method_exchangeImplementations(originalMethod, swizzledMethod);
+        }
+    });
 }
 
 - (void)autoGAI_viewDidAppear:(BOOL)animated {
 	[self autoGAI_viewDidAppear:animated];
-	NSString *screenName = NSStringFromClass([self class]);
 	if ([self conformsToProtocol:@protocol(FLSKAutoGAI)]) {
+        NSString *screenName = NSStringFromClass([self class]);
 		if ([self respondsToSelector:@selector(screenName)]) {
 			NSString *name = [self performSelector:@selector(screenName)];
 			if (name != nil) {
 				screenName = name;
 			}
 		}
+        id tracker = [[GAI sharedInstance] defaultTracker];
+        [tracker set:kGAIScreenName value:screenName];
+        [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
 	}
 
-	id tracker = [[GAI sharedInstance] defaultTracker];
-	[tracker set:kGAIScreenName value:screenName];
-	[tracker send:[[GAIDictionaryBuilder createScreenView] build]];
 }
 
 @end
